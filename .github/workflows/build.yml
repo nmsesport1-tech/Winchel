@@ -17,5 +17,5 @@ jobs:
       - run: gradle build
       - uses: actions/upload-artifact@v4
         with:
-          name: keybind-profiles-jar
-          path: build/libs/keybind-profiles-1.0.0.jar
+          name: angle-hud-jar
+          path: build/libs/angle-hud-1.0.0.jar
