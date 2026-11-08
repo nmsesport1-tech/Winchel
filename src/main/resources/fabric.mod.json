@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "anglehud",
+  "version": "${version}",
+  "name": "Angle HUD",
+  "description": "Zeigt den Blickwinkel (Pitch) in Grad unter dem Fadenkreuz. Menü mit /winkel.",
+  "authors": ["du"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.anglehud.AngleHudClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
